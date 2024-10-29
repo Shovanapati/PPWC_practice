@@ -1,0 +1,15 @@
+Question:Replace 0 and 1 in a Number.
+
+Input: The program asks the user for the length of the number and then the number itself. It could take any number from 0 to 1 .
+output:The 0s and 1s are replaced by 1s and 0s respectively and the other digits remains the same.
+  
+
+It iterates through all the characters altering the required ones. 
+
+Example:
+Enter the length of the number: 5
+Enter a number: 10101
+Modified number is: 01010
+
+NOTE:The program would scan more numbers than the length but it would only replace the 0s and 1s till the length provided by the user .
+     Hence the output would contain unaltered 0s and 1s after the length entered by the user.
