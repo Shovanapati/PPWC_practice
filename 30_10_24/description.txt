@@ -1,0 +1,18 @@
+Question: Student Details Program in C
+
+Write a C program to define a Student structure that stores the details of a student, including their name, roll number, and marks. The program should dynamically allocate memory for the student's name based on the length specified by the user and input all details of the student. Finally, display the student’s details in a formatted output, and ensure that the allocated memory is properly freed .
+
+-In this program the user specifies the maximum length of the student's name and allocates memory dynamically.
+-It allows the user to input the student's name, roll number, and marks.
+-Displays the entered details as output.
+-Frees dynamically allocated memory after use.
+
+The Student structure contains a pointer name for storing the student's name, and variables for roll number and marks.
+
+malloc(): used to allocate memory for the name based on the user's input length.
+
+fgets() : used to read the student's name, and scanf() is used for roll number and marks. fgets() is often preferred over scanf("%s", ...) for reading strings because it allows for controlled input and prevents buffer overflow.
+
+strcspn(): used to remove the newline character after fgets().
+
+free() : used to release memory allocated for the name.
